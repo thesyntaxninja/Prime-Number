@@ -18,7 +18,7 @@ int main()
  {
 
      int num,count=0;
-     cout<<"Enter the number to check : "
+     cout<<"Enter the number to check : ";
      cin>>num;
 
      for(int i=2;i<num;i++)
