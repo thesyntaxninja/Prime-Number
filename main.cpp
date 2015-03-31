@@ -12,15 +12,21 @@
     c:\directory> cl -GX primenumber.cpp
 */
 #include <iostream>
-#include <config.h>
+//#include <config.h>
 
 using namespace std;
 
 int main()
  {
 
-     int num,count=0;
-     cout<<"Enter the number to check : ";
+     int num = 0;
+	 int count = 0;
+	 
+     while (num != -1)
+     {
+     
+     cout<<"\nEnter -1 to exit the program\n";
+	 cout<<"Enter the number to check : ";
      cin>>num;
 
      for(int i=2;i<num;i++)
@@ -33,11 +39,12 @@ int main()
          }
             if(count==0)
              {
-               cout<<"It is a Prime Number \n";
+               cout<<"\nIt is a Prime Number \n";
              }
             else
              {
-              cout<<"It is not a Prime Number \n";
+              cout<<"\nIt is not a Prime Number \n";
              }
+	}
 
  }
