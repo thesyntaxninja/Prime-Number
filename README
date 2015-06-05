@@ -1,2 +1,5 @@
-This is a readme document
+
+This was an assignment to test the Jenkins CI tool. A Jenkins server builds this program after every push to the repository.
+
 Type 'info Automake' to read the Automake manual
+
